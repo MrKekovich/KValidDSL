@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "io.github.mrkekovich"
-version = "0.1.1"
+version = "0.1.2"
 
 repositories {
     mavenCentral()
@@ -20,16 +20,9 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "io.github.mrkekovich"
             artifactId = "kvalid-dsl"
-            version = "0.1.1"
+            version = "0.1.2"
 
             from(components["java"])
         }
     }
-}
-
-tasks.test {
-    useJUnitPlatform()
-}
-kotlin {
-    jvmToolchain(17)
 }
