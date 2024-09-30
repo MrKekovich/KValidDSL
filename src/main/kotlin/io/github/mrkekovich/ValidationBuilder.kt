@@ -1,8 +1,10 @@
-import validators.CollectionValidator
-import validators.ComparableValidator
-import validators.StringValidator
-import validators.TemporalValidator
-import validators.value
+package io.github.mrkekovich
+
+import io.github.mrkekovich.validators.CollectionValidator
+import io.github.mrkekovich.validators.ComparableValidator
+import io.github.mrkekovich.validators.StringValidator
+import io.github.mrkekovich.validators.TemporalValidator
+import io.github.mrkekovich.validators.value
 import kotlin.reflect.KProperty
 import kotlin.reflect.full.findAnnotation
 

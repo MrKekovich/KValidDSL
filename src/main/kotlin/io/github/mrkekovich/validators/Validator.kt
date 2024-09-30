@@ -1,6 +1,6 @@
-package validators
+package io.github.mrkekovich.validators
 
-import Violation
+import io.github.mrkekovich.Violation
 import kotlin.reflect.KProperty
 
 interface Validator {

@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "io.github.mrkekovich"
-version = "0.1.2"
+version = "0.1.3"
 
 repositories {
     mavenCentral()
@@ -20,7 +20,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "io.github.mrkekovich"
             artifactId = "kvalid-dsl"
-            version = "0.1.2"
+            version = "0.1.3"
 
             from(components["java"])
         }

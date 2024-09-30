@@ -1,4 +1,4 @@
-package validators
+package io.github.mrkekovich.validators
 
 import kotlin.reflect.KProperty
 
